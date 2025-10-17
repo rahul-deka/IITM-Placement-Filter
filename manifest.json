@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "IITM Placement Filter",
+  "version": "1.0",
+  "icons": {
+    "16": "filter-white.png",
+    "48": "filter-white.png",
+    "128": "filter-white.png"
+  },
+  "description": "Adds column filters to IITM placement website.",
+  "content_scripts": [
+    {
+      "matches": ["https://placement.iitm.ac.in/students-all-companies/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "filter-white.png",
+      "48": "filter-white.png",
+      "128": "filter-white.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://placement.iitm.ac.in/*"]
+}
