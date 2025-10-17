@@ -11,9 +11,9 @@
   <a>
     <img alt="size" src="https://img.shields.io/github/repo-size/rahul-deka/IITM-Placement-Filter?label=size&style=flat-square&color=green">
   </a>
-  <a>
+  <!-- <a>
     <img alt="downloads" src="https://img.shields.io/github/downloads/rahul-deka/IITM-Placement-Filter/latest/IITM%20Placement%20Filter?displayAssetName=false&label=downloads&style=flat-square">
-  </a>
+  </a> -->
   <a href="https://github.com/rahul-deka/IITM-Placement-Filter/blob/main/LICENSE" title="MIT License">
     <img alt="license" src="https://img.shields.io/badge/License-MIT-magenta?style=flat-square" />
   </a>
