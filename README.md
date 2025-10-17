@@ -5,14 +5,17 @@
 <em>A Chrome extension that adds per-column filtering in the IITM Placement Portal with an additional “Load All” functionality.</em>
 
 <p align="center">
-  <a href="https://github.com/rahul-deka/IITM-Placement-Filter/releases/download/v1.0.0/placement-filter-v1.0.0.zip" title="Download v1.0.0">
-    <img src="https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge&logo=github" alt="Download v1.0.0" />
+  <a href="https://github.com/rahul-deka/IITM-Placement-Filter/archive/refs/tags/v1.0.0.zip" title="Download v1.0.0">
+    <img src="https://img.shields.io/badge/Download-v1.0.0-blue?style=flat-square&logo=github" alt="Download v1.0.0" />
   </a>
   <a>
-    <img alt="size" src="https://img.shields.io/github/repo-size/rahul-deka/IITM-Placement-Filter">
+    <img alt="size" src="https://img.shields.io/github/repo-size/rahul-deka/IITM-Placement-Filter?label=size&style=flat-square&color=green">
   </a>
   <a>
-    <img alt="GitHub Downloads (specific asset, latest release)" src="https://img.shields.io/github/downloads/rahul-deka/IITM-Placement-Filter/latest/IITM%20Placement%20Filter?displayAssetName=false">
+    <img alt="downloads" src="https://img.shields.io/github/downloads/rahul-deka/IITM-Placement-Filter/latest/IITM%20Placement%20Filter?displayAssetName=false&label=downloads&style=flat-square">
+  </a>
+  <a href="https://github.com/rahul-deka/IITM-Placement-Filter/blob/main/LICENSE" title="MIT License">
+    <img alt="license" src="https://img.shields.io/badge/License-MIT-magenta?style=flat-square" />
   </a>
 </p>
 
@@ -29,6 +32,9 @@ This Chrome extension injects per-column filter controls into the placement tabl
 4. Click "Load unpacked" and select the extracted folder from the downloaded ZIP file.
 5. Navigate to `https://placement.iitm.ac.in/students-all-companies` to start using the extension.
 
+## Notes
+- For the best experience, set your browser's zoom level to 75%. This ensures the UI elements are optimally displayed.
+
 ## How it works
 
 ### Filtering
@@ -42,9 +48,6 @@ This Chrome extension injects per-column filter controls into the placement tabl
 - While loading, the button shows a spinner and a loading label.
 - After loading completes, the table rows are renumbered, and pagination controls are hidden.
 - Your filters and Load All preference are saved automatically and restored on page reload.
-
-## Notes
-- For the best experience, set your browser's zoom level to 75%. This ensures the UI elements are optimally displayed.
 
 ## License
 This project is distributed for educational and personal use. No affiliation with the official IIT Madras placement portal.
