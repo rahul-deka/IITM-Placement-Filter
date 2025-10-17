@@ -29,7 +29,7 @@ This Chrome extension injects per-column filter controls into the placement tabl
 1. Click the "Download" button above to get the extension ZIP file.
 2. Open Chrome and go to `chrome://extensions`.
 3. Enable "Developer mode" using the toggle in the top-right corner.
-4. Click "Load unpacked" and select the extracted folder from the downloaded ZIP file.
+4. Click "Load unpacked" and select the extracted folder from the downloaded ZIP file. If the ZIP contains a nested folder (for example `IITM-Placement-Filter-main`), you may need to open that folder and select the inner folder that contains the extension files.
 5. Navigate to `https://placement.iitm.ac.in/students-all-companies` to start using the extension.
 
 ## Notes
